@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <!---->
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="css/swipebox.css">
+  <!---->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="">
+  <!---->
+  <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/numscroller-1.0.js"></script>
+  <!---->
+  <link href="http://fonts.googleapis.com/css?family=Voltaire" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300" rel="stylesheet" type="text/css">
+  <!--startsmothscrolling-->
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    			$(".scroll").click(function(event){		
+    				event.preventDefault();
+    				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+    			});
+    		});
+  </script>
+  <!--script-->
+  <script src="js/responsiveslides.min.js"></script>
+  <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <!-- swipe box js -->
+  <script src="js/jquery.swipebox.min.js"></script>
+  <script type="text/javascript">
+    jQuery(function($) {
+    				$(".swipebox").swipebox();
+    				});
+  </script>
+  <!-- //swipe box js -->
+</head>
+
+<body>
+  <!--header-->
+  <div class="banner">
+    <div class="container">
+      <div class="navigation wow fadeInLeft animated" data-wow-delay=".5s">
+        <nav class="navbar navbar-default">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right link-effect">
+              <li>
+                <a href="#home" class="scroll">主页</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll">关于</a>
+              </li>
+              <li>
+                <a href="netvalue.html" class="scroll">净值披露</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </nav>
+      </div>
+      <div class="banner-info">
+        <div class="logo wow fadeInRight animated" data-wow-delay=".5s">
+          <h3>
+            <a href="index.html">B</a>I</h3>
+        </div>
+        <h1 class="wow fadeInRight animated" data-wow-delay=".5s">BITWIN</h1>
+        <p class="wow fadeInRight animated text-light border" data-wow-delay=".5s">
+          <b>人工智能驱动的数字货币投资系统</b>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <!--about-->
+    <div class="about-w3" id="about">
+      <div class="container">
+        <h2 class="tittle">关于BITWIN</h2>
+        <p class="about-text">
+          <b>BITWIN是总部位于香港的全球性数字货币科技公司，由3位英国顶级名校金融学和人工智能学博士创立，主要针对高净值比特币人群，提供基于人工智能的数字货币保值增值投资方案。</b>
+        </p>
+        <div class="about-grids">
+          <div class="col-md-4 about-grid">
+            <div class="about-top">
+              <h4>
+                <i class="glyphicon glyphicon-heart-empty" aria-hidden="true"></i>智能驱动</h4>
+              <span></span>
+            </div>
+            <p>全天候机器人基于深度神经网络，结合市场价格、交易量、基本面等因素，自动预测不同数字货币短期上涨概率，可以有效跟踪上涨行情，并躲避下跌。</p>
+          </div>
+          <div class="col-md-4 about-grid">
+            <div class="about-top">
+              <h4>
+                <i class="glyphicon glyphicon-globe" aria-hidden="true">全球业务</i>
+              </h4>
+              <span></span>
+            </div>
+            <p>在香港、深圳、杭州、伦敦分别设有办事处，便于全球高净值数字货币人群洽谈业务。</p>
+          </div>
+          <div class="col-md-4 about-grid">
+            <div class="about-top">
+              <h4>
+                <i class="glyphicon glyphicon-flag" aria-hidden="true">风险控制</i>
+              </h4>
+              <span></span>
+            </div>
+            <p>综合团队长期金融市场业务经验，采用先进的风险控制和资金控制模型，有效控制数字货币大幅波动对资金的负面影响，在中长期投资条件下，极大减小智能系统本金亏损的概率和幅度。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--about-->
+    <!--services-->
+    <!--services-->
+    <!-- gallery -->
+    <!--gallery -->
+    <!--Testimonials-->
+    <!--Testimonials-->
+    <!--count-->
+    <!--count-->
+    <!--team-->
+    <!--team-->
+  </div>
+  <div class="footer" id="contact">
+    <div class="container">
+      <div class="footer-text">
+        <p>Copyright © 2018. BITWIN TECH HK All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function() {
+    							/*
+    							var defaults = {
+    					  			containerID: 'home', // fading element id
+    								containerHoverID: 'toTopHover', // fading element hover id
+    								scrollSpeed: 1200,
+    								easingType: 'linear' 
+    					 		};
+    							*/
+    							
+    							$().UItoTop({ easingType: 'easeOutQuart' });
+    							
+    						});
+  </script>
+  <a href="#" id="home" style="display: block;">
+    <span id="toTopHover" style="opacity: 1;"> </span>
+  </a>
+
+</body>
+
+</html>
